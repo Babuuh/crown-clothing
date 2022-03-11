@@ -9,6 +9,14 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
       </Routes>
+import './App.css';
+import HomePage from './pages/homepage/homepage';
+
+function App() {
+  return (
+    <div>
+        <HomePage />
+    </div>
   );
 }
 
