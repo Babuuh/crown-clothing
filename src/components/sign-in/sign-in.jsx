@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import { signInWithGoogle } from "../../firebase/fireabase.utils";
 import CustomButton from "../custom-button/custom-button";
 import FormInput from "../form-input/form-input";
 import './sign-in.styles.scss'
 
-class SignIn extends Component {
+class SignIn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
